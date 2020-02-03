@@ -126,3 +126,51 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+nav {
+  background-color: #1497AB;
+  display: flex;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 2%;
+}
+nav .logo p {
+  font-size: 1.5rem;
+  color: white;
+}
+nav .logo p span {
+  color: #29ff29;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+nav .links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin: 2%;
+}
+nav .links a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  margin: 3%;
+}
+nav .links button {
+  display: flex;
+  justify-content: center;
+  background-color: #044A53;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: white;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
