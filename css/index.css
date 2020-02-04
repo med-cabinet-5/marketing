@@ -183,6 +183,11 @@ nav .links button {
   color: white;
   margin: 0;
 }
+nav .links button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
 .about-container {
   background-image: url("https://images.unsplash.com/photo-1536964310528-e47dd655ecf3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1113&q=80");
   background-position: center;
@@ -391,6 +396,10 @@ footer .copyright span {
   border-radius: 10px;
   color: white;
 }
+.container-two .content-two .is-legal button a {
+  text-decoration: none;
+  color: white;
+}
 .container-two .content-three {
   display: flex;
   flex-direction: column;
@@ -437,5 +446,9 @@ footer .copyright span {
   height: 25px;
   font-size: 1rem;
   border-radius: 10px;
+  color: white;
+}
+.container-two .content-three .for-you button a {
+  text-decoration: none;
   color: white;
 }
