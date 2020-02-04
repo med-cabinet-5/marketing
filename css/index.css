@@ -318,6 +318,7 @@ footer .copyright span {
 }
 .header .cta-one button a {
   text-decoration: none;
+  color: black;
 }
 .container-two {
   display: flex;
