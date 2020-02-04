@@ -173,6 +173,55 @@ nav .links button {
   color: white;
   margin: 0;
 }
+footer {
+  width: 100%;
+  background-color: #044A53;
+}
+footer .footer-container {
+  display: flex;
+  padding: 5%;
+}
+footer .footer-container .footer-logo {
+  width: 50%;
+  padding-left: 5%;
+  padding-bottom: 10%;
+}
+footer .footer-container .footer-logo .logo {
+  font-size: 2rem;
+  color: white;
+  padding: 2% 0;
+}
+footer .footer-container .footer-logo .logo span {
+  font-weight: 800;
+  color: #2ae62a;
+}
+footer .footer-container .footer-logo p {
+  font-size: 1.25rem;
+  color: white;
+}
+footer .footer-container .footer-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 50%;
+  margin: 0% 10%;
+}
+footer .footer-container .footer-nav a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  margin: 2% 0;
+}
+footer .copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .copyright span {
+  color: white;
+  font-size: 1.25rem;
+}
 .container-one {
   background-image: url("https://images.unsplash.com/photo-1556928045-16f7f50be0f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80");
   background-position: center;
@@ -180,17 +229,23 @@ nav .links button {
   background-size: cover;
 }
 .header .cta-one {
-  width: 60%;
-  margin: 5% 5%;
+  width: 50%;
+  margin: 5% 10%;
   padding: 7%;
+  margin-top: 0;
 }
 .header .cta-one h1 {
   font-size: 2rem;
   margin: 2% 0;
+  font-weight: 800;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 .header .cta-one P {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-bottom: 3%;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 .header .cta-one button {
   display: flex;
@@ -210,7 +265,9 @@ nav .links button {
   align-items: center;
 }
 .container-two .content-one {
-  width: 50%;
+  width: 40%;
+  padding: 5%;
+  border: 1px solid #d3d3d34a;
 }
 .container-two .content-one .someAbout {
   margin-bottom: 5%;
@@ -231,6 +288,7 @@ nav .links button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 15% 0;
 }
 .container-two .content-two .img-two {
   width: 60%;
@@ -238,14 +296,55 @@ nav .links button {
 .container-two .content-two .is-legal {
   width: 60%;
 }
+.container-two .content-two .is-legal h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2% 0;
+}
+.container-two .content-two .is-legal p {
+  font-size: 1.25rem;
+  margin: 2% 0;
+}
+.container-two .content-two .is-legal button {
+  display: flex;
+  justify-content: center;
+  background-color: #323232;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: white;
+}
 .container-two .content-three {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10%;
 }
 .container-two .content-three .img-three {
   width: 60%;
 }
 .container-two .content-three .for-you {
   width: 60%;
+}
+.container-two .content-three .for-you h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2% 0;
+}
+.container-two .content-three .for-you p {
+  font-size: 1.25rem;
+  margin: 2% 0;
+}
+.container-two .content-three .for-you button {
+  display: flex;
+  justify-content: center;
+  background-color: #323232;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: white;
 }

@@ -7,18 +7,24 @@
 
 .header {
     .cta-one {
-        width: 60%;
-        margin: 5% 5%;
+        width: 50%;
+        margin: 5% 10%;
         padding: 7%;
+        margin-top: 0;
         
         h1 {
             font-size: 2rem;
             margin: 2% 0;
+            font-weight: 800;
+            color: white;
+            text-shadow: 2px 2px black;
         }
 
         P {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             margin-bottom: 3%;
+            color: white;
+            text-shadow: 2px 2px black;
         }
 
         button {
@@ -34,7 +40,9 @@
     align-items: center;
 
     .content-one {
-        width: 50%;
+        width: 40%;
+        padding: 5%;
+        border: 1px solid #d3d3d34a;
 
         .someAbout {
             margin-bottom: 5%;
@@ -60,6 +68,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 15% 0;
         
         .img-two {
             width: 60%;
@@ -67,6 +76,21 @@
 
         .is-legal {
             width: 60%;
+
+            h1 {
+                font-size: 2rem;
+                font-weight: 600;
+                margin: 2% 0;
+            }
+
+            p {
+                font-size: 1.25rem;
+                margin: 2% 0;
+            }
+
+            button {
+                .custom-btn(@color-four, 100px,white);
+            }
         }
     }
 
@@ -74,6 +98,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 10%;
         
         .img-three {
             width: 60%;
@@ -81,6 +106,21 @@
 
         .for-you {
             width: 60%;
+
+            h1 {
+                font-size: 2rem;
+                font-weight: 600;
+                margin: 2% 0;
+            }
+
+            p {
+                font-size: 1.25rem;
+                margin: 2% 0;
+            }
+
+            button {
+                .custom-btn(@color-four, 100px,white);
+            }
         }
     }
 }
