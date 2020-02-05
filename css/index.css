@@ -1,3 +1,45 @@
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lusitana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lusitana'), url(https://fonts.gstatic.com/s/lusitana/v7/CSR84z9ShvucWzsMKyhdTOc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(https://fonts.gstatic.com/s/librebaskerville/v7/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -147,6 +189,7 @@ nav .logo {
 nav .logo p {
   font-size: 1.5rem;
   color: white;
+  font-family: 'Lusitana', sans-serif;
 }
 nav .logo p span {
   color: #29ff29;
@@ -170,6 +213,7 @@ nav .links a {
   font-size: 1.5rem;
   color: white;
   margin: 3%;
+  font-family: 'Lusitana', sans-serif;
 }
 nav .links button {
   display: flex;
@@ -189,7 +233,7 @@ nav .links button a {
   font-size: 1rem;
 }
 .about-container {
-  background-image: url("https://images.unsplash.com/photo-1536964310528-e47dd655ecf3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1113&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1536964310528-e47dd655ecf3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1113&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -233,6 +277,7 @@ footer .footer-container .footer-logo .logo {
   font-size: 2rem;
   color: white;
   padding: 2% 0;
+  font-family: 'Playfair Display', serif;
 }
 @media (min-width: 500px) {
   footer .footer-container .footer-logo .logo {
@@ -246,6 +291,7 @@ footer .footer-container .footer-logo .logo span {
 footer .footer-container .footer-logo p {
   font-size: 1.25rem;
   color: white;
+  font-family: 'Lusitana', sans-serif;
 }
 @media (min-width: 500px) {
   footer .footer-container .footer-logo p {
@@ -265,6 +311,7 @@ footer .footer-container .footer-nav a {
   color: white;
   text-decoration: none;
   margin: 2% 0;
+  font-family: 'Lusitana', sans-serif;
 }
 footer .copyright {
   display: flex;
@@ -274,9 +321,10 @@ footer .copyright {
 footer .copyright span {
   color: white;
   font-size: 1.25rem;
+  font-family: 'Playfair Display', serif;
 }
 .container-one {
-  background-image: url("https://images.unsplash.com/photo-1556928045-16f7f50be0f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.38)), url("https://images.unsplash.com/photo-1556928045-16f7f50be0f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -297,11 +345,13 @@ footer .copyright span {
   margin: 2% 0;
   font-weight: 800;
   color: white;
+  font-family: 'Playfair Display', serif;
 }
 .header .cta-one P {
   font-size: 1.25rem;
   margin-bottom: 3%;
   color: white;
+  font-family: 'Lusitana', sans-serif;
 }
 .header .cta-one button {
   display: flex;
@@ -317,6 +367,7 @@ footer .copyright span {
 .header .cta-one button a {
   text-decoration: none;
   color: black;
+  font-family: 'Lusitana', sans-serif;
 }
 .container-two {
   display: flex;
@@ -347,13 +398,18 @@ footer .copyright span {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 3% 0;
+  font-family: 'Playfair Display', serif;
 }
 .container-two .content-one .someAbout p {
   font-size: 1.25rem;
+  font-family: 'Lusitana', sans-serif;
 }
 .container-two .content-one .someAbout .screenGrab {
   height: 30vh;
   background-color: lightgrey;
+}
+.container-two .content-one .someAbout .bud {
+  width: 100%;
 }
 .container-two .content-two {
   display: flex;
@@ -377,10 +433,12 @@ footer .copyright span {
   font-size: 2rem;
   font-weight: 600;
   margin: 2% 0;
+  font-family: 'Playfair Display', serif;
 }
 .container-two .content-two .is-legal p {
   font-size: 1.25rem;
   margin: 2% 0;
+  font-family: 'Lusitana', sans-serif;
 }
 @media (min-width: 500px) {
   .container-two .content-two .is-legal p {
@@ -401,6 +459,7 @@ footer .copyright span {
 .container-two .content-two .is-legal button a {
   text-decoration: none;
   color: white;
+  font-family: 'Lusitana', sans-serif;
 }
 .container-two .content-three {
   display: flex;
@@ -429,10 +488,12 @@ footer .copyright span {
   font-size: 2rem;
   font-weight: 600;
   margin: 2% 0;
+  font-family: 'Playfair Display', serif;
 }
 .container-two .content-three .for-you p {
   font-size: 1.25rem;
   margin: 2% 0;
+  font-family: 'Lusitana', sans-serif;
 }
 @media (min-width: 500px) {
   .container-two .content-three .for-you p {
@@ -453,4 +514,5 @@ footer .copyright span {
 .container-two .content-three .for-you button a {
   text-decoration: none;
   color: white;
+  font-family: 'Lusitana', sans-serif;
 }

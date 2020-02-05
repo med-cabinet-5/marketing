@@ -1,5 +1,5 @@
 .container-one {
-    background-image: url("https://images.unsplash.com/photo-1556928045-16f7f50be0f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80");
+    background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.38)), url("https://images.unsplash.com/photo-1556928045-16f7f50be0f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,12 +21,14 @@
             margin: 2% 0;
             font-weight: 800;
             color: white;
+            font-family: @heading-font;
         }
 
         P {
             font-size: 1.25rem;
             margin-bottom: 3%;
             color: white;
+            font-family: @p-font;
         }
 
         button {
@@ -35,6 +37,7 @@
             a {
                 text-decoration: none;
                 color: black;
+                font-family: @p-font;
             }
         }
     }
@@ -65,15 +68,21 @@
                 font-size: 1.5rem;
                 font-weight: 600;
                 margin: 3% 0;
+                font-family: @heading-font;
             }
 
             p {
                 font-size: 1.25rem;
+                font-family: @p-font;
             }
 
             .screenGrab {
                 height: 30vh;
                 background-color: lightgrey;
+            }
+
+            .bud {
+                    width: 100%;
             }
         }
     }
@@ -100,11 +109,13 @@
                 font-size: 2rem;
                 font-weight: 600;
                 margin: 2% 0;
+                font-family: @heading-font;
             }
 
             p {
                 font-size: 1.25rem;
                 margin: 2% 0;
+                font-family: @p-font;
 
                 @media @desktop  {
                     font-size: 1.5rem;
@@ -117,6 +128,7 @@
                 a {
                     text-decoration: none;
                     color: white;
+                    font-family: @p-font;
                 }
             }
         }
@@ -149,11 +161,13 @@
                 font-size: 2rem;
                 font-weight: 600;
                 margin: 2% 0;
+                font-family: @heading-font;
             }
 
             p {
                 font-size: 1.25rem;
                 margin: 2% 0;
+                font-family: @p-font;
 
                 @media @desktop {
                     font-size: 1.5rem;
@@ -166,6 +180,7 @@
                 a {
                     text-decoration: none;
                     color: white;
+                    font-family: @p-font;
                 }
             }
         }
