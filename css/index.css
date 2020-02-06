@@ -262,7 +262,7 @@ nav .links button a {
 .statement .content h1 {
   color: white;
   font-size: 2.5rem;
-  margin: 3%;
+  margin: 2% 5%;
   font-family: 'Playfair Display', serif;
 }
 @media (min-width: 500px) {
