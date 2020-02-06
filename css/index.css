@@ -168,7 +168,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-html {
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
   font-size: 62.5%;
 }
 nav {
@@ -464,7 +470,7 @@ footer .copyright span {
 .container-two .content-one {
   width: 40%;
   padding: 5%;
-  border: 1px solid #aeaeae38;
+  border: 1px solid #cccccc40;
 }
 @media (min-width: 500px) {
   .container-two .content-one {
@@ -519,8 +525,8 @@ footer .copyright span {
 .container-two .content-two .is-legal {
   width: 50%;
   padding: 2%;
-  border-top: 1px solid #aeaeae38;
-  border-bottom: 1px solid #aeaeae38;
+  border-top: 1px solid #cccccc40;
+  border-bottom: 1px solid #cccccc40;
 }
 @media (min-width: 500px) {
   .container-two .content-two .is-legal {
@@ -581,8 +587,8 @@ footer .copyright span {
 .container-two .content-three .for-you {
   width: 50%;
   padding: 2%;
-  border-top: 1px solid #aeaeae38;
-  border-bottom: 1px solid #aeaeae38;
+  border-top: 1px solid #cccccc40;
+  border-bottom: 1px solid #cccccc40;
 }
 @media (min-width: 500px) {
   .container-two .content-three .for-you {
