@@ -10,22 +10,29 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         
         h1 {
             color: white;
-            font-size: 4rem;
-            margin: 5%;
+            font-size: 2.5rem;
+            margin: 3%;
             font-family: @heading-font;
+
+            @media @desktop {
+                font-size: 4.5rem;
+            }
         }
 
         p {
             color: white;
-            margin: 0% 15%;
+            margin: 0% 3%;
             padding: 2%;
             font-size: 1.5rem;
-            border-top: 1px solid #ffffff3b;
             border-bottom: 1px solid #ffffff3b;
+
+            @media @desktop {
+                font-size: 2rem;
+            }
         }
     }
 }
@@ -35,18 +42,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 7%;
 
     h1 {
-        font-size: 3rem;
+        font-size: 2.25rem;
         color: white;
         font-family: @heading-font;
+
+        @media @desktop {
+            font-size: 4rem;
+        }
     }
     
     .customer {
             display: flex;
             align-items: center;
-            border-top: 1px solid #ffffff3b;
-            border-bottom: 1px solid #ffffff3b;
+            border: 1px solid #ffffff3b;
             margin: 2% 15%;
         
         .profile-img {
@@ -60,6 +71,10 @@
             font-size: 1.25rem;
             font-family: @p-font;
             color: white;
+
+            @media @desktop {
+                font-size: 2rem;
+            }
         }
     }
 }

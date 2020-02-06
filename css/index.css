@@ -251,38 +251,52 @@ nav .links button a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .statement .content h1 {
   color: white;
-  font-size: 4rem;
-  margin: 5%;
+  font-size: 2.5rem;
+  margin: 3%;
   font-family: 'Playfair Display', serif;
+}
+@media (min-width: 500px) {
+  .statement .content h1 {
+    font-size: 4.5rem;
+  }
 }
 .statement .content p {
   color: white;
-  margin: 0% 15%;
+  margin: 0% 3%;
   padding: 2%;
   font-size: 1.5rem;
-  border-top: 1px solid #ffffff3b;
   border-bottom: 1px solid #ffffff3b;
+}
+@media (min-width: 500px) {
+  .statement .content p {
+    font-size: 2rem;
+  }
 }
 .customer-accounts {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 7%;
 }
 .customer-accounts h1 {
-  font-size: 3rem;
+  font-size: 2.25rem;
   color: white;
   font-family: 'Playfair Display', serif;
+}
+@media (min-width: 500px) {
+  .customer-accounts h1 {
+    font-size: 4rem;
+  }
 }
 .customer-accounts .customer {
   display: flex;
   align-items: center;
-  border-top: 1px solid #ffffff3b;
-  border-bottom: 1px solid #ffffff3b;
+  border: 1px solid #ffffff3b;
   margin: 2% 15%;
 }
 .customer-accounts .customer .profile-img {
@@ -295,6 +309,11 @@ nav .links button a {
   font-size: 1.25rem;
   font-family: 'Lusitana', sans-serif;
   color: white;
+}
+@media (min-width: 500px) {
+  .customer-accounts .customer p {
+    font-size: 2rem;
+  }
 }
 footer {
   width: 100%;
@@ -478,6 +497,7 @@ footer .copyright span {
 }
 .container-two .content-one .someAbout .bud {
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .container-two .content-two {
   display: flex;
@@ -494,6 +514,7 @@ footer .copyright span {
 .container-two .content-two .img-two {
   width: 55%;
   margin-bottom: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .container-two .content-two .is-legal {
   width: 50%;
@@ -555,6 +576,7 @@ footer .copyright span {
 .container-two .content-three .img-three {
   width: 55%;
   margin-bottom: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .container-two .content-three .for-you {
   width: 50%;
