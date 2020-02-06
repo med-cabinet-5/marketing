@@ -3,8 +3,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
-    // filter: brightness(60%);
 }
 
 .statement {
@@ -18,12 +16,50 @@
             color: white;
             font-size: 4rem;
             margin: 5%;
+            font-family: @heading-font;
         }
 
         p {
             color: white;
-            margin: 0 15%;
+            margin: 0% 15%;
+            padding: 2%;
             font-size: 1.5rem;
+            border-top: 1px solid #ffffff3b;
+            border-bottom: 1px solid #ffffff3b;
+        }
+    }
+}
+
+.customer-accounts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 3rem;
+        color: white;
+        font-family: @heading-font;
+    }
+    
+    .customer {
+            display: flex;
+            align-items: center;
+            border-top: 1px solid #ffffff3b;
+            border-bottom: 1px solid #ffffff3b;
+            margin: 2% 15%;
+        
+        .profile-img {
+            width: 10%;
+            border-radius: 50px;
+            border: 1px solid white;
+            margin: 1%;
+        }
+
+        p {
+            font-size: 1.25rem;
+            font-family: @p-font;
+            color: white;
         }
     }
 }

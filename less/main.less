@@ -13,26 +13,34 @@
         margin-top: 0;
 
         @media @desktop {
-            width: 25%;
+            width: 40%;
         }
         
         h1 {
             font-size: 2rem;
-            margin: 2% 0;
+            margin: 5% 0;
             font-weight: 800;
             color: white;
             font-family: @heading-font;
+
+            @media @desktop {
+                font-size: 3.5rem;
+            }
         }
 
         P {
             font-size: 1.25rem;
-            margin-bottom: 3%;
+            margin-bottom: 5%;
             color: white;
             font-family: @p-font;
+
+            @media @desktop {
+                font-size: 1.5rem;
+            }
         }
 
         button {
-            .custom-btn(white, 80px, @color-one);
+            .custom-btn(white, 100px, @color-one);
 
             a {
                 text-decoration: none;
@@ -51,11 +59,12 @@
 
     .content-one {
         width: 40%;
-        padding: 5%;
+        padding: 2%;
         border: 1px solid #d3d3d34a;
         @media @desktop {
-            width: 90%;
+            width: 95%;
             display: flex;
+            border: 0px;
         }
 
         .someAbout {
@@ -99,12 +108,20 @@
         }
         
         .img-two {
-            width: 60%;
+            width: 55%;
             margin-bottom: 3%;
         }
 
         .is-legal {
-            width: 60%;
+            width: 50%;
+            padding: 2%;
+            border-top: 1px solid #d3d3d366;
+            border-bottom: 1px solid #d3d3d366;
+
+            @media @desktop {
+                margin-right: 2%;
+                border: 0px;
+            }
 
             h1 {
                 font-size: 2rem;
@@ -124,7 +141,7 @@
             }
 
             button {
-                .custom-btn(@color-four, 80px,white);
+                .custom-btn(@color-four, 100px,white);
 
                 a {
                     text-decoration: none;
@@ -148,15 +165,19 @@
         
         
         .img-three {
-            width: 60%;
+            width: 55%;
             margin-bottom: 3%;
         }
 
         .for-you {
-            width: 60%;
+            width: 50%;
+            padding: 2%;
+            border-top: 1px solid #d3d3d366;
+            border-bottom: 1px solid #d3d3d366;
 
             @media @desktop {
-                margin: 5%;
+                margin: 2%;
+                border: 0px;
             }
 
             h1 {
@@ -177,7 +198,7 @@
             }
 
             button {
-                .custom-btn(@color-four, 80px,white);
+                .custom-btn(@color-four, 100px,white);
 
                 a {
                     text-decoration: none;
