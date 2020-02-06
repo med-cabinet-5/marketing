@@ -1,0 +1,66 @@
+nav {
+    background-color: @color-two;
+    display: flex;
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 2%;
+
+        .logo-img {
+            width: 50%;
+
+            @media @desktop {
+                width: 30%;
+            }
+        }
+
+        @media @desktop {
+            margin: 0 2%;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: white;
+            font-family: @p-font;
+            
+            span {
+                color: #29ff29;
+                font-weight: 900;
+                font-size: 2.5rem;
+            }
+        }
+    }
+    
+    .links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        margin: 2%;
+        
+        @media @desktop {
+            margin: 0 2%;
+        }
+                
+        a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: white;
+            margin: 3%;
+            font-family: @p-font;
+        }
+
+        button {
+            .custom-btn(@color-one, 80px, white);
+            margin: 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+            }
+        }
+    }
+}

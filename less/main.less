@@ -1,0 +1,215 @@
+.container-one {
+    background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.38)), url("../img/header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+
+    .cta-one {
+        width: 50%;
+        margin: 5% 10%;
+        padding: 7%;
+        margin-top: 0;
+
+        @media @desktop {
+            width: 40%;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin: 5% 0;
+            font-weight: 800;
+            color: white;
+            font-family: @heading-font;
+
+            @media @desktop {
+                font-size: 3.5rem;
+            }
+        }
+
+        P {
+            font-size: 1.25rem;
+            margin-bottom: 5%;
+            color: white;
+            font-family: @p-font;
+
+            @media @desktop {
+                font-size: 1.5rem;
+            }
+        }
+
+        button {
+            .custom-btn(white, 100px, @color-one);
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-family: @p-font;
+            }
+        }
+    }
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .content-one {
+        width: 40%;
+        padding: 5%;
+        border: @border;
+        @media @desktop {
+            width: 95%;
+            display: flex;
+            border: 0px;
+        }
+
+        .someAbout {
+            margin-bottom: 5%;
+            @media @desktop {
+                margin: 1%;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin: 3% 0;
+                font-family: @heading-font;
+            }
+
+            p {
+                font-size: 1.25rem;
+                font-family: @p-font;
+            }
+
+            .screenGrab {
+                height: 30vh;
+                background-color: lightgrey;
+            }
+
+            .bud {
+                    width: 100%;
+                    box-shadow: @shadow;
+            }
+        }
+    }
+
+    .content-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10% 0;
+
+        @media @desktop {
+            flex-direction: row-reverse;
+            margin: 3%;
+        }
+        
+        .img-two {
+            width: 55%;
+            margin-bottom: 3%;
+            box-shadow: @shadow;
+        }
+
+        .is-legal {
+            width: 50%;
+            padding: 2%;
+            border-top: @border;
+            border-bottom: @border;
+
+            @media @desktop {
+                margin-right: 2%;
+                border: 0px;
+            }
+
+            h1 {
+                font-size: 2rem;
+                font-weight: 600;
+                margin: 5% 0;
+                font-family: @heading-font;
+            }
+
+            p {
+                font-size: 1.25rem;
+                margin: 5% 0;
+                font-family: @p-font;
+
+                @media @desktop  {
+                    font-size: 1.5rem;
+                }
+            }
+
+            button {
+                .custom-btn(@color-four, 100px,white);
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-family: @p-font;
+                }
+            }
+        }
+    }
+
+    .content-three {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10%;
+
+        @media @desktop {
+            flex-direction: row;
+            margin: 3%;
+        }
+        
+        
+        .img-three {
+            width: 55%;
+            margin-bottom: 3%;
+            box-shadow: @shadow;
+        }
+
+        .for-you {
+            width: 50%;
+            padding: 2%;
+            border-top: @border;
+            border-bottom: @border;
+
+            @media @desktop {
+                margin: 2%;
+                border: 0px;
+            }
+
+            h1 {
+                font-size: 2rem;
+                font-weight: 600;
+                margin: 5% 0;
+                font-family: @heading-font;
+            }
+
+            p {
+                font-size: 1.25rem;
+                margin: 5% 0;
+                font-family: @p-font;
+
+                @media @desktop {
+                    font-size: 1.5rem;
+                }
+            }
+
+            button {
+                .custom-btn(@color-four, 100px,white);
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-family: @p-font;
+                }
+            }
+        }
+    }
+}
