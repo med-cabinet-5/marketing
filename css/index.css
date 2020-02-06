@@ -181,6 +181,9 @@ nav .logo {
   width: 100%;
   margin: 2%;
 }
+nav .logo .logo-img {
+  width: 50%;
+}
 @media (min-width: 500px) {
   nav .logo {
     margin: 0 2%;
@@ -220,10 +223,11 @@ nav .links button {
   justify-content: center;
   background-color: #044A53;
   cursor: pointer;
-  width: 100px;
+  width: 80px;
   height: 25px;
   font-size: 1rem;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: 0px solid;
   color: white;
   margin: 0;
 }
@@ -233,7 +237,7 @@ nav .links button a {
   font-size: 1rem;
 }
 .about-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1536964310528-e47dd655ecf3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1113&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/about-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -266,12 +270,14 @@ footer .footer-container {
 footer .footer-container .footer-logo {
   width: 50%;
   padding-left: 5%;
-  padding-bottom: 10%;
 }
 @media (min-width: 500px) {
   footer .footer-container .footer-logo {
     width: 25%;
   }
+}
+footer .footer-container .footer-logo .logo-img {
+  height: 60%;
 }
 footer .footer-container .footer-logo .logo {
   font-size: 2rem;
@@ -300,16 +306,24 @@ footer .footer-container .footer-logo p {
 }
 footer .footer-container .footer-nav {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
   flex-direction: column;
   width: 50%;
-  margin: 0% 10%;
 }
-footer .footer-container .footer-nav a {
+@media (min-width: 500px) {
+  footer .footer-container .footer-nav {
+    margin: 0;
+    margin-left: 50%;
+  }
+}
+footer .footer-container .footer-nav h1 {
   font-size: 1.5rem;
   color: white;
-  text-decoration: none;
+  margin: 3% 0;
+  font-family: 'Playfair Display', serif;
+}
+footer .footer-container .footer-nav span {
+  font-size: 1.25rem;
+  color: white;
   margin: 2% 0;
   font-family: 'Lusitana', sans-serif;
 }
@@ -324,7 +338,7 @@ footer .copyright span {
   font-family: 'Playfair Display', serif;
 }
 .container-one {
-  background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.38)), url("https://images.unsplash.com/photo-1556928045-16f7f50be0f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.38)), url("../img/header.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -358,10 +372,11 @@ footer .copyright span {
   justify-content: center;
   background-color: white;
   cursor: pointer;
-  width: 100px;
+  width: 80px;
   height: 25px;
   font-size: 1rem;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: 0px solid;
   color: #044A53;
 }
 .header .cta-one button a {
@@ -415,7 +430,7 @@ footer .copyright span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15% 0;
+  margin: 10% 0;
 }
 @media (min-width: 500px) {
   .container-two .content-two {
@@ -425,6 +440,7 @@ footer .copyright span {
 }
 .container-two .content-two .img-two {
   width: 60%;
+  margin-bottom: 3%;
 }
 .container-two .content-two .is-legal {
   width: 60%;
@@ -432,12 +448,12 @@ footer .copyright span {
 .container-two .content-two .is-legal h1 {
   font-size: 2rem;
   font-weight: 600;
-  margin: 2% 0;
+  margin: 5% 0;
   font-family: 'Playfair Display', serif;
 }
 .container-two .content-two .is-legal p {
   font-size: 1.25rem;
-  margin: 2% 0;
+  margin: 5% 0;
   font-family: 'Lusitana', sans-serif;
 }
 @media (min-width: 500px) {
@@ -450,10 +466,11 @@ footer .copyright span {
   justify-content: center;
   background-color: #323232;
   cursor: pointer;
-  width: 100px;
+  width: 80px;
   height: 25px;
   font-size: 1rem;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: 0px solid;
   color: white;
 }
 .container-two .content-two .is-legal button a {
@@ -475,6 +492,7 @@ footer .copyright span {
 }
 .container-two .content-three .img-three {
   width: 60%;
+  margin-bottom: 3%;
 }
 .container-two .content-three .for-you {
   width: 60%;
@@ -487,12 +505,12 @@ footer .copyright span {
 .container-two .content-three .for-you h1 {
   font-size: 2rem;
   font-weight: 600;
-  margin: 2% 0;
+  margin: 5% 0;
   font-family: 'Playfair Display', serif;
 }
 .container-two .content-three .for-you p {
   font-size: 1.25rem;
-  margin: 2% 0;
+  margin: 5% 0;
   font-family: 'Lusitana', sans-serif;
 }
 @media (min-width: 500px) {
@@ -505,10 +523,11 @@ footer .copyright span {
   justify-content: center;
   background-color: #323232;
   cursor: pointer;
-  width: 100px;
+  width: 80px;
   height: 25px;
   font-size: 1rem;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: 0px solid;
   color: white;
 }
 .container-two .content-three .for-you button a {
