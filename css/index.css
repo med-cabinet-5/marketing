@@ -463,8 +463,8 @@ footer .copyright span {
 }
 .container-two .content-one {
   width: 40%;
-  padding: 2%;
-  border: 1px solid #d3d3d34a;
+  padding: 5%;
+  border: 1px solid #aeaeae38;
 }
 @media (min-width: 500px) {
   .container-two .content-one {
@@ -519,8 +519,8 @@ footer .copyright span {
 .container-two .content-two .is-legal {
   width: 50%;
   padding: 2%;
-  border-top: 1px solid #d3d3d366;
-  border-bottom: 1px solid #d3d3d366;
+  border-top: 1px solid #aeaeae38;
+  border-bottom: 1px solid #aeaeae38;
 }
 @media (min-width: 500px) {
   .container-two .content-two .is-legal {
@@ -581,8 +581,8 @@ footer .copyright span {
 .container-two .content-three .for-you {
   width: 50%;
   padding: 2%;
-  border-top: 1px solid #d3d3d366;
-  border-bottom: 1px solid #d3d3d366;
+  border-top: 1px solid #aeaeae38;
+  border-bottom: 1px solid #aeaeae38;
 }
 @media (min-width: 500px) {
   .container-two .content-three .for-you {
