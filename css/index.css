@@ -279,46 +279,49 @@ nav .links button a {
 }
 @media (min-width: 500px) {
   .statement .content p {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    width: 84%;
   }
 }
-.customer-accounts {
+.meet-our-team {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 7%;
 }
-.customer-accounts h1 {
+.meet-our-team h1 {
   font-size: 2.25rem;
   color: white;
   font-family: 'Playfair Display', serif;
 }
 @media (min-width: 500px) {
-  .customer-accounts h1 {
+  .meet-our-team h1 {
     font-size: 4rem;
   }
 }
-.customer-accounts .customer {
+.meet-our-team .employee {
   display: flex;
   align-items: center;
+  justify-content: center;
   border: 1px solid #ffffff3b;
   margin: 2% 15%;
+  width: 80%;
 }
-.customer-accounts .customer .profile-img {
+.meet-our-team .employee .profile-img {
   width: 10%;
   border-radius: 50px;
   border: 1px solid white;
   margin: 1%;
 }
-.customer-accounts .customer p {
+.meet-our-team .employee p {
   font-size: 1.25rem;
   font-family: 'Lusitana', sans-serif;
   color: white;
 }
 @media (min-width: 500px) {
-  .customer-accounts .customer p {
-    font-size: 2rem;
+  .meet-our-team .employee p {
+    font-size: 2.25rem;
   }
 }
 footer {
